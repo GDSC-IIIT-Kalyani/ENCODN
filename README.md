@@ -7,4 +7,4 @@ This is perfect for new contributors who want to make **meaningful PR's** and ar
 
 Below is a sample image when ENCODN.py is executed:
 
-[image](https://github.com/DSC-IIIT-Kalyani/ENCODN/blob/main/sample1.png)
+![image](https://github.com/DSC-IIIT-Kalyani/ENCODN/blob/main/sample1.png)
