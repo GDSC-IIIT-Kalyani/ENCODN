@@ -1,6 +1,4 @@
-Contributing Guidelines:
-
-Here are some suggestions you should be following while contributing to this repository:
+### Contributing Guidelines:
 
 1. Please read the contributing guidelines XD
 
