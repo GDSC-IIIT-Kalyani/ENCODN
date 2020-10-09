@@ -4,7 +4,7 @@
 
 2. These are the ways you can contribute to this repository:
 * Adding simple encryption/decryption algorithms in the form of a .py file
-* Adding other tool algorithms in the form of a .py file (please check the tools from dcode.fr)
+* Adding other tool algorithms in the form of a .py file (please check all tools from [dcode.fr](https://dcode.fr/en/))
 * Optimising algorithms
 * Enhancing the UI/UX by using tkinter in Python3
 * Adding widgets using tkinter in Python3
