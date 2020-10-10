@@ -1,5 +1,6 @@
 #name of the frame is: Frame1
 from tkinter import *
+import ENCODN
 
 class FRAME1(Frame)
   def __init__(self, master=None):
