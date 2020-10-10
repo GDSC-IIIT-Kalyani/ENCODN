@@ -2,6 +2,7 @@ from tkinter import *
 from FRAMES import FRAME1 as fr1
 
 root = Tk()
-root.geometry("500x500+300+100")
+root.minsize(1024,768)
+root.maxsize(1024,768)
 r = fr1.FRAME1class(master=root)
 r.mainloop()
