@@ -3,7 +3,6 @@
 
 from tkinter import *
 import ENCODN
-import FRAME2 as fr2
 
 class FRAME1class(Frame)
   def __init__(self, master=None):
