@@ -2,7 +2,6 @@
 #name of the frame2 is: FRAME2
 
 from tkinter import *
-import ENCODN
 
 class FRAME1class(Frame)
   def __init__(self, master=None):
