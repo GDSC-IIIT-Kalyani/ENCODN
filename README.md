@@ -1,12 +1,32 @@
 # ENCODN
 
-This is a simple Python3 GUI based user interface that simply takes in inputs from the user and encrypts/decrypts according to the algorithm chosen. The original idea is based on [dcode.fr](https://dcode.fr/), you can refer to the link for an overview.
+#### Hacktoberfest2020-perfect | Beginner-friendly | Easy-to-understand
+
+This is perfect for new contributors who want to make **meaningful PR's** and are familiar with basic Python3. Please check the [contributing.md](contributing.md) file for rules and ideas about possible contributions.
+
+##### About ENCODN:
+This is a simple Python3 GUI based user interface whose original idea is based on [dcode.fr](https://dcode.fr/en/tools-list), you can refer to the link for an overview. The main frame has various tool options that open into a dropdown of more categories, as classified on dcode.fr, which lead you to fun encoder-decoder tools, game solving, puzzle solving, calculation based, cyphertext related basic as well as genome programming, image processing, live data manipulation related advanced tools.
 The module used to implement this is Tkinter which is easy to learn.
 
-This is perfect for new contributors who want to make **meaningful PR's** and are familiar with basic Python3. Please check the contributing.md file for rules and ideas about possible contributions.
+##### Repository Structure:
+To avoid long messy codes we have broken up the GUI into directories of .py files as follows:
+* Main window looping in ENCODN.py
+* Structural frames in /FRAMES
+* All buttons in /BUTTONS
+* Various tools in /TOOLS where all categories have a different directory and divided into further sub-directories accordingly that eventually lead to two files:  (i) XYZ.py that contains a simple python program to execute the desired task, and (ii) XYZ-FRAME.py that contains the GUI part of the XYZ tool which uses the functionality of XYZ.py on command call. As you visit the directories, the structure will become clearer.
 
-Below is a sample image when ENCODN.py is executed:
+##### Live Demo:
+Please check out the [LIVE DEMO](https://dsc-iiit-kalyani.github.io/ENCODN/) of ENCODN by clicking on this link, so you have an idea of what this Repository targets. Please feel free to contact the maintainers anytime for any type of query.
 
-![image](https://github.com/DSC-IIIT-Kalyani/ENCODN/blob/main/sample1.png)
+##### Basic Rules:
+*Compulsory!! Do read [contributing.md](contributing.md) before submitting Pull Requests.*
+* Create or pick an issue, it is important you clearly decide and inform what you will be working on. There are various issue templates provided, pick one according to your need. If none of them suits your purpose, choose a blank template instead.
+* Create a branch for yourself and submit your PR. Make sure you add your labels, write proper descriptions of how the PR is contributing to the Repository, and link the issue assigned to you with it.
+* **Only PRs with the label "hacktoberfest-accepted" will count towards your Hacktoberfest 2020 PR submissions.**
+* **Spam PRs will be reported and meaningless PRs will not be merged/reviewed/considered by the maintainers**
 
-`<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2Fvsi7Kw3mWflX1ksp9Wz3%2FENCODN%3Fnode-id%3D1%253A7%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>`
+##### Additional:
+We need a logo for ENCODN. If you're a graphic designer or just for the fun of it, wish to design a logo for the GUI you are most welcome to open an issue for logo contribution. It will still be counted as a meaningful PR.
+
+##### Owner:
+This repository is owned by Developer Student Club IIIT Kalyani. You can reach out to us at dsc.iiitkalyani@gmail.com
