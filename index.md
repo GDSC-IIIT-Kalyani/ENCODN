@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to ENCODN Preview
 
 You can use the [editor on GitHub](https://github.com/DSC-IIIT-Kalyani/ENCODN/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[//]: # (This may be the most platform independent commentMarkdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for)
 
 ```markdown
 Syntax highlighted code block
