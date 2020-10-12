@@ -10,8 +10,7 @@ def encrypt(string):
             cipher += str(bit)
             dec //= 2
     except ValueError:
-        print("The entered value is incorrect!!!")
-        return None
+        return "The entered value is incorrect!!!"
     return cipher[::-1]
 
 # Input : BCD string
@@ -32,6 +31,5 @@ def decrypt(cipher):
         else:
             raise ValueError
     except ValueError:
-        print("The entered value is incorrect!!!")
-        return None
+        return "The entered value is incorrect!!!"
     return str(decipher)
