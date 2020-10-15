@@ -1,6 +1,6 @@
 
 <!-- these reference variables' links are given at the end of the document-->
-[![Contributors][contributors-shield]][contributors-url]
+      [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
