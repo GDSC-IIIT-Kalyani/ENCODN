@@ -58,4 +58,4 @@ This repository is owned by Developer Student Club IIIT Kalyani. You can reach o
 [license-shield]: https://img.shields.io/badge/License-MIT-blue.svg?style=plastic
 [license-url]: https://github.com/DSC-IIIT-Kalyani/ENCODN/blob/main/.github/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=darkblue
-[linkedin-url1]: https://linkedin.com/in/akshitadixit
+[linkedin-url1]: https://www.linkedin.com/in/akshitadixit/
