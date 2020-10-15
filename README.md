@@ -1,3 +1,15 @@
+
+<!-- these reference variables' links are given at the end of the document-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+
+
 # ENCODN
 
 #### Hacktoberfest2020-perfect | Beginner-friendly | Easy-to-understand
@@ -30,3 +42,20 @@ We need a logo for ENCODN. If you're a graphic designer or just for the fun of i
 
 ##### Owner:
 This repository is owned by Developer Student Club IIIT Kalyani. You can reach out to us at dsc.iiitkalyani@gmail.com
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/akshitadixit/ENCODN.svg?style=plastic
+[contributors-url]: https://github.com/DSC-IIIT-Kalyani/ENCODN/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/DSC-IIIT-Kalyani/ENCODN.svg?style=plastic
+[forks-url]: https://github.com/DSC-IIIT-Kalyani/ENCODN/network/members
+[stars-shield]: https://img.shields.io/github/stars/DSC-IIIT-Kalyani/ENCODN.svg?style=plastic
+[stars-url]: https://github.com/DSC-IIIT-Kalyani/ENCODN/stargazers
+[issues-shield]: https://img.shields.io/github/issues/DSC-IIIT-Kalyani/ENCODN.svg?style=plastic
+[issues-url]: https://github.com/DSC-IIIT-Kalyani/ENCODN/issues
+[license-shield]: https://img.shields.io/badge/License-MIT-blue.svg?style=plastic
+[license-url]: https://github.com/DSC-IIIT-Kalyani/ENCODN/blob/main/.github/LICENSE.md
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=darkblue
+[linkedin-url1]: https://linkedin.com/in/akshitadixit
