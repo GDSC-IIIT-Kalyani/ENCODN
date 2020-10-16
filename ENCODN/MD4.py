@@ -3,7 +3,7 @@ import binascii
 import os
 
 
-def hash_string(input_string):                            #  hashing system
+def encrypt(input_string):                            #  hashing system
     """Hash a string."""
     salt = hashlib.sha256(os.urandom(30)).hexdigest().encode('ascii')
     pwdhash = hashlib.pbkdf2_hmac('sha512', input_string.encode('utf-8'),
@@ -12,7 +12,7 @@ def hash_string(input_string):                            #  hashing system
     return (salt + pwdhash).decode('ascii')
 
 
-def verify_hash(hashed_string, user_input):                # Verify Hashing
+def decrypt(hashed_string, user_input):                # Verify Hashing
     """Verify hash string"""
     salt = hashed_string[:64]
     hashed_string = hashed_string[64:]
@@ -21,11 +21,14 @@ def verify_hash(hashed_string, user_input):                # Verify Hashing
                                   salt.encode('ascii'),
                                   100000)
     pwdhash = binascii.hexlify(pwdhash).decode('ascii')
-    return pwdhash == hashed_string
+    if pwdhash != hashed_string:
+        return "The entered hash/cypher/value is incorrect!!!"
+    else:
+        return user_input
 
 
 
-# inp=hash_string('hi')
+# inp=encrypt('hi')
 # print(inp)
 
-# print(verify_hash(inp,'ashi'))
+# print(decrypt(inp,'ashi'))
