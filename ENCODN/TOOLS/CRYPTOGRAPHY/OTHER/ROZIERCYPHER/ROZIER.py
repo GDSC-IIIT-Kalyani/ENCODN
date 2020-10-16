@@ -25,7 +25,7 @@ def encrypt(plaintext: str, key: str=constant_key):
 
     # Iterate over every letter in the plaintext string
     for index, letter in enumerate(plaintext):
-        # Get the first and second letters of the key at index letter_position,
+        # Get the first and second letters of the key at index of letter,
         # using modulus to allow for a key to be repeated
         first_key = key[index % len(key)]
         second_key = key[(index + 1) % len(key)]
@@ -76,8 +76,8 @@ def decrypt(ciphertext: str, key: str=constant_key):
 
     # Iterate over every letter in the ciphertext string
     for index, letter in enumerate(ciphertext):
-        # Get the first and second letters of the key at index letter_position,
-        # using modulus to allow for a key to be repeated
+        # Get the first and second letters of the key at index of letter, using
+        # modulus to allow for a key to be repeated
         first_key = key[index % len(key)]
         second_key = key[(index + 1) % len(key)]
 
