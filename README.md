@@ -12,13 +12,17 @@
 
 # ENCODN
 
-#### Hacktoberfest2020-perfect | Beginner-friendly | Easy-to-understand
+#### Desktop-App | Beginner-friendly | Easy-to-understand
 
 This is perfect for new contributors who want to make **meaningful PR's** and are familiar with basic Python3. Please check the [contributing.md](contributing.md) file for rules and ideas about possible contributions.
 
 ##### About ENCODN:
 This is a simple Python3 GUI based user interface whose original idea is based on [dcode.fr](https://dcode.fr/en/tools-list), you can refer to the link for an overview. The main frame has various tool options that open into a dropdown of more categories, as classified on dcode.fr, which lead you to fun encoder-decoder tools, game solving, puzzle solving, calculation based, cyphertext related basic as well as genome programming, image processing, live data manipulation related advanced tools.
-The module used to implement this is Tkinter which is easy to learn.
+The module used to implement this is Tkinter which is easy to learn. 
+
+Below is a sample of the UI:
+
+![Sample](sample.png)
 
 ##### Repository Structure:
 To avoid long messy codes we have broken up the GUI into directories of .py files as follows:
