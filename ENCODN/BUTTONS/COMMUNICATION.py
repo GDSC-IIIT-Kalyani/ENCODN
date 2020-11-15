@@ -1,28 +1,31 @@
 from tkinter import * 
+from tkinter import ttk
 from FRAMES.TELECOM import TELECOM
-from FRAMES.OTHERS import OTHERS
+from FRAMES.COMM_OTHERS import OTHERS
+from FRAMES.NUMERAL_SYS import NUMERAL_SYS
+from FRAMES.NOTATION_SYS import NOTATION_SYS
 
-b=[]
+t_names = ["TELECOM", "NUMERAL SYSTEM", "NOTATION SYSTEM", "OTHERS"]
+frames = []
+fr_names = [TELECOM, NUMERAL_SYS, NOTATION_SYS, OTHERS]
 
 def COMMUNICATION(master=None):
 
-	frame = Frame(master,bg="#215d9c", width = 800, height=550)
-	frame.grid(row=0, column=0, sticky="e")
-	frame.grid_propagate(0)
+	s = ttk.Style(master)
+	s.configure('lefttab.TNotebook',padding=[10,20], tabposition='wn')
 
-	t_names = ["TELECOM","OTHERS"]
-	fr_names = (TELECOM, OTHERS)
+	nb = ttk.Notebook(master, s='lefttab.TNotebook', width=850, height=650)
+	nb.grid(row=0, column=0, sticky="e")
+	nb.grid_propagate(0)
 
 	for i in range(len(t_names)):
-		b.append(Button(master,text=t_names[i],bg ='#c4c4c4' ,fg='black').grid(row=0,column=0,sticky="nw",pady=(32*(i+1))))
+		frames.append(Frame(nb,bg="#215d9c", width = 850, height=550))
+		nb.add(frames[i], text=t_names[i])
 
-	
+#calling frame setups here
 
-
-
-
-
-
+	for i in range(len(fr_names)):
+		fr_names[i](frames[i])
 
 
 

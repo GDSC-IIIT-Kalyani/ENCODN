@@ -1,11 +1,29 @@
 from tkinter import * 
+from tkinter import ttk
+from FRAMES.BOARDGAMES import BOARDGAMES
+from FRAMES.MOBILEGAMES import MOBILEGAMES
+from FRAMES.WORDGAMES import WORDGAMES
+from FRAMES.NUMBERGAMES import NUMBERGAMES
+from FRAMES.WORDSEARCH import WORDSEARCH
+
+t_names = ["BOARD GAMES","MOBILE GAMES","WORD GAMES","NUMBER GAMES","WORD SEARCH"]
+frames = []
+fr_names = [BOARDGAMES, MOBILEGAMES, WORDGAMES, NUMBERGAMES, WORDSEARCH]
 
 def GAMESANDSOLVERS(master=None):
 
-	frame = Frame(master,bg="#215d9c", width = 800, height=550)
-	frame.grid(row=0, column=0, sticky="e")
+	s = ttk.Style(master)
+	s.configure('lefttab.TNotebook',padding=[10,20], tabposition='wn')
 
-	t_names = ["OPTION1","OPTION2","OPTION3","OPTION4","OPTION5"]
-	b = []
+	nb = ttk.Notebook(master, s='lefttab.TNotebook', width=850, height=650)
+	nb.grid(row=0, column=0, sticky="e")
+	nb.grid_propagate(0)
+
 	for i in range(len(t_names)):
-		b.append(Button(master,text=t_names[i],bg ='#c4c4c4' ,fg='black').grid(row=0,column=0,sticky="nw",pady=(32*(i+1))))
+		frames.append(Frame(nb,bg="#215d9c", width = 850, height=550))
+		nb.add(frames[i], text=t_names[i])
+
+#calling frame setups here
+
+	for i in range(len(fr_names)):
+		fr_names[i](frames[i])
