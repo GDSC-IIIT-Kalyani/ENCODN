@@ -22,7 +22,7 @@ from BUTTONS.CRYPTOGRAPHY import CRYPTOGRAPHY
 root = Tk()
 s = ttk.Style(root)
 
-root.call('lappend', 'auto_path', 'ENCODN/THEMES/awthemes-9.3.2')
+root.call('lappend', 'auto_path', 'C:/Program Files/awthemes-9.3.2')
 root.call('package', 'require', 'awdark')
 
 s.theme_use('awdark')
@@ -39,13 +39,13 @@ for i in range(15):
 	lf.append(LabelFrame(frame, text=t_names[i].strip(), foreground="#dd7a06", background="#222222", width=900, height=600,padx=10, pady=10).grid(sticky="new"))
 	notebook.add(frame, text=t_names[i])
 	fr.append(frame)
-	frame.grid_propagate(0)
+	#frame.grid_propagate(0)
 
 notebook.grid()
 notebook.grid_propagate(0)
 
 #calling button setups here
-BIOLOGY(fr[0])
+GAMESANDSOLVERS(fr[0])
 CRYPTOGRAPHY(fr[1])
 MATHEMATICS(fr[2])
 INFORMATICS(fr[3])
@@ -62,10 +62,12 @@ GEOGRAPHY(fr[13])
 MUSIC(fr[14])
 
 #215d9c
+#if the logo file doesn't show up or has import error try this file path "https://github.com/DSC-IIIT-Kalyani/ENCODN/blob/main/ENCODN/ENCODN-logo.png"
+root.iconphoto(False, PhotoImage(file="\ENCODN\ENCODN-logo.png")) 
 root.geometry("1124x768")
 root.configure(bg="#151515")
 root.minsize(1124,768)
-root.maxsize(1124,768)
-
+#root.maxsize(1124,768)
 root.title("ENCODN")
+
 root.mainloop()
