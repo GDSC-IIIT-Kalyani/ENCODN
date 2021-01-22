@@ -42,7 +42,7 @@ Please check out the [LIVE DEMO](https://dsc-iiit-kalyani.github.io/ENCODN/) of 
 * **Spam PRs will be reported and meaningless PRs will not be merged/reviewed/considered by the maintainers**
 
 ##### Additional:
-We need a logo for ENCODN. If you're a graphic designer or just for the fun of it, wish to design a logo for the GUI you are most welcome to open an issue for logo contribution. It will still be counted as a meaningful PR.
+The code involves a basic notebook structure with vertical tab buttons. Each button is nested with a new Tkinter notebook for various sub-categories according to the division of categories on [dcode.fr](dcode.fr/en). Finally each tool/game has a separate folder with two files - one containing the GUI and the other containing the functions for the backend.
 
 ##### Owner:
 This repository is owned by Developer Student Club IIIT Kalyani. You can reach out to us at dsc.iiitkalyani@gmail.com
