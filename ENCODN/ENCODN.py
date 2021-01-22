@@ -22,7 +22,7 @@ from BUTTONS.CRYPTOGRAPHY import CRYPTOGRAPHY
 root = Tk()
 s = ttk.Style(root)
 
-root.call('lappend', 'auto_path', 'C:/Program Files/awthemes-9.3.2')
+root.call('lappend', 'auto_path', 'C:/Python/THEMES/awthemes-9.3.2')
 root.call('package', 'require', 'awdark')
 
 s.theme_use('awdark')
@@ -62,8 +62,8 @@ GEOGRAPHY(fr[13])
 MUSIC(fr[14])
 
 #215d9c
-#if the logo file doesn't show up or has import error try this file path "https://github.com/DSC-IIIT-Kalyani/ENCODN/blob/main/ENCODN/ENCODN-logo.png"
-root.iconphoto(False, PhotoImage(file="\ENCODN\ENCODN-logo.png")) 
+#if the logo file doesn't show up or has import error try your local path
+root.iconphoto(False, PhotoImage(file="ENCODN-logo.png")) 
 root.geometry("1124x768")
 root.configure(bg="#151515")
 root.minsize(1124,768)
