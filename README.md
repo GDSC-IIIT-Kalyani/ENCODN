@@ -51,7 +51,7 @@ This repository is owned by Developer Student Club IIIT Kalyani. You can reach o
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/akshitadixit/ENCODN.svg?style=plastic
+[contributors-shield]: https://img.shields.io/github/contributors/DSC-IIIT-Kalyani/ENCODN.svg?style=plastic
 [contributors-url]: https://github.com/DSC-IIIT-Kalyani/ENCODN/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/DSC-IIIT-Kalyani/ENCODN.svg?style=plastic
 [forks-url]: https://github.com/DSC-IIIT-Kalyani/ENCODN/network/members
